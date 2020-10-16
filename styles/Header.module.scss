@@ -1,0 +1,28 @@
+.container {
+    height: 150px;
+    width: 600px;
+    border-style: solid;
+    border-width: 3px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border-color: hsl(217, 16%, 45%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 30px;
+        width: 315px;
+        height: 100px;
+        .logo{
+            height: 70px;
+            margin-left: 15px;
+        }
+    }
+}
+
+.logo {
+    height: 97px;
+    margin-left: 35px;
+}

@@ -1,0 +1,114 @@
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    @media screen and (max-width: 600px) {
+        width: 130px;
+        height: 130px;
+
+    }
+        
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornsilk;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0px 0.4rem 0px 0px lightgray;
+    @media screen and (max-width: 600px) {
+        width: 105px;
+        height: 105px;
+    }
+}
+
+.paper {
+    
+    background: linear-gradient(to top, hsl(230, 89%, 62%) , hsl(230, 89%, 65%)) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0px -0.4rem 0px 0px hsl(230, 79%, 52%);
+}
+
+.rock {
+    
+    background: linear-gradient(to top, hsl(349, 71%, 52%) , hsl(349, 70%, 56%)) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0px -0.4rem 0px 0px hsl(349, 91%, 32%);
+}
+
+.scissors {
+    
+    background: linear-gradient(to top, hsl(39, 89%, 49%) ,hsl(40, 84%, 53%));
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0px -0.4rem 0px 0px hsl(39, 89%, 39%);
+}
+
+
+.lizard {
+    
+    background: linear-gradient(to top,hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0px -0.4rem 0px 0px hsl(261, 73%, 40%);
+}
+
+
+
+.spock {
+
+    background: linear-gradient(to top, hsl(189, 59%, 53%) , hsl(189, 58%, 57%));
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0px -0.4rem 0px 0px hsl(189, 59%, 33%);
+}
+
+
+.bigger{
+    height: 300px;
+    width: 300px;
+    @media screen and (max-width: 600px) {
+        width: 130px;
+        height: 130px;
+
+    }
+}
+
+.bigimg{
+    width: 225px;
+    height: 225px;
+    @media screen and (max-width: 600px) {
+        width: 105px;
+        height: 105px;
+    }
+    & img {
+        width: 50%;
+    } 
+    
+}
+
+.smaller{
+    height: 150px;
+    width: 150px;
+ 
+}
+
+.smallimg{
+    width: 100px;
+    height: 100px;
+    // box-shadow: inset 0px 16px 0px 0px lightgray;   
+
+    & img {
+        width: 50%;
+    } 
+}

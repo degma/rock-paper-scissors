@@ -1,0 +1,39 @@
+.container {
+  height: 115px;
+  width: 150px;
+  background-color: #E1E1E1;
+  border-radius: 5px;
+  margin-right: 25px;
+  @media screen and (max-width: 400px) {
+    height: 80px;
+    width: 90px;
+    margin-right: 15px;
+  }
+}
+
+h1.title {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-bottom: 0px;
+  color: hsl(229, 64%, 46%);
+  @media screen and (max-width: 400px) {
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}
+.score {
+  font-size: 64px;
+  font-weight: 900;
+  color: hsl(229, 25%, 31%);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  line-height: 100%;
+  @media screen and (max-width: 400px) {
+    line-height: 58px;
+  }
+}
